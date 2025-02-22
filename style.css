@@ -1,6 +1,11 @@
 /* GENERAL */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@font-face {
+  font-family: myFont;
+  src: url(fonts/brittany_signature/BrittanySignature.ttf);
+
+}
 
 * {
   margin: 0;
@@ -60,6 +65,7 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  font-family: myFont;
 }
 
 .logo:hover {
@@ -380,6 +386,16 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+
+/* MUSIC */
+
+/* #music {
+  background-color: aqua;
+} */
+ 
+/* #music iframe {
+  border: 1px solid rgb(163, 163, 163);
+} */
 
 /* CONTACT */
 
